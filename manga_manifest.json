@@ -21,7 +21,7 @@
     "links": [
         {
             "rel": "self",
-            "href": "manifest.json",
+            "href": "https://raw.githubusercontent.com/thuvienonline40/book_storage_collection/main/manga_manifest.json",
             "type": "application/divina+json"
         }
     ],
