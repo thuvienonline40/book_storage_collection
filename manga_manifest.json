@@ -1,0 +1,90 @@
+{
+    "@context": "http://readium.org/webpub-manifest/context.jsonld",
+    "metadata": {
+        "@type": "https://schema.org/ComicStory",
+        "conformsTo": "https://readium.org/webpub-manifest/profiles/divina",
+        "identifier": "webtoon2",
+        "title": "Webtoon 2",
+        "readingProgression": "ttb",
+        "presentation": {
+            "continuous": true,
+            "fit": "width",
+            "overflow": "paginated",
+            "clipped": false,
+            "spread": "none",
+            "viewportRatio": {
+                "constraint": "max",
+                "aspectRatio": "1:1"
+            }
+        }
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": "manifest.json",
+            "type": "application/divina+json"
+        }
+    ],
+    "readingOrder": [
+        {
+            "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-00.png",
+            "width": 1920,
+            "height": 1920
+        },
+        {
+            "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-01.png",
+            "width": 1920,
+            "height": 1920
+        },
+        {
+            "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-03.png",
+            "width": 1920,
+            "height": 1920
+        },
+        {
+            "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-04.png",
+            "width": 1920,
+            "height": 1920,
+            "properties": {
+                "transitionForward": {
+                    "type": "slide-in",
+                    "direction": "rtl"
+                },
+                "transitionBackward": {
+                    "type": "slide-out",
+                    "direction": "ltr"
+                }
+            }
+        },
+        {
+            "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-05.png",
+            "width": 1920,
+            "height": 1920,
+            "properties": {
+                "transitionBackward": {
+                    "type": "cut"
+                }
+            }
+        },
+        {
+            "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-06.png",
+            "width": 1920,
+            "height": 1920
+        },
+        {
+            "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-07.png",
+            "width": 1920,
+            "height": 1920
+        },
+        {
+            "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-08.png",
+            "width": 1920,
+            "height": 1920
+        },
+        {
+            "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-09.png",
+            "width": 1920,
+            "height": 1920
+        }
+    ]
+}
