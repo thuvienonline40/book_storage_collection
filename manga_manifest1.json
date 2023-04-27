@@ -40,5 +40,19 @@
       "type": "image/jpeg",
       "properties": { "page": "right" }
     }
+  ],
+  "guided": [
+    {
+      "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-00.png",
+      "title": "Page 1"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-00.png",
+      "title": "Panel 1"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/readium/divina-player-js/master/public/tests/webtoon2/resource-00.png",
+      "title": "Panel 2"
+    }
   ]
 }
